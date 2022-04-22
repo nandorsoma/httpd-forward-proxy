@@ -12,6 +12,7 @@ rm:
 
 clean: stop rm
 	-docker rmi httpd-forward-proxy
+	-rm .htpasswd
 
 user:
 	htpasswd -c ./.htpasswd LuckyLuke
