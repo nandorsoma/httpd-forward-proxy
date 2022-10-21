@@ -15,5 +15,4 @@ clean: stop rm
 	-rm .htpasswd
 
 user:
-	htpasswd -c ./.htpasswd LuckyLuke
-
+	htpasswd -c ./.htpasswd $(name)
