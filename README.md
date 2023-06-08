@@ -5,7 +5,7 @@
 
  Usage:
  
- - `make user name=\<username\>` - Creates a test user which can be used for Basic auth testing. Should be executed before `make build` as it creates a `.htpasswd` file that will be used in that phase.
+ - `make user name=<username>` - Creates a test user which can be used for Basic auth testing. Should be executed before `make build` as it creates a `.htpasswd` file that will be used in that phase.
  - `make build` - Creates docker image.
  - `make run` - Starts a container listening on 9080 based on the image created by the above command. 
  - `make stop` - Stops the container.
